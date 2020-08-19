@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+{% extends "AppNumber4/base.html" %}
+    {% block body_block %}
+        <h1>Welcome to Some Other Page</h1>
+        <a class="card-link" href="{% url 'AppNumber4:relative' %}">Click me to go to another page!</a>
+    {% endblock %}

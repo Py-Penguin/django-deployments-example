@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "AppNumber4/base.html" %}
+    {% block body_block %}
+        <h1>Welcome to the Home Page</h1>
+        <p>Hello web travelers! Nothing to see here. This is a Django testing app.</p>
+        <p>This is the home of many tests.</p>
+        <h2>Text: {{ text | cut:"World" }}</h2>
+        <h2>Number: {{ number | add:"7"}}</h2>
+    {% endblock %}
